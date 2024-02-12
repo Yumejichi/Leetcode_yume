@@ -29,7 +29,7 @@ class Solution {
 
         //if n < 0, then the fraction of the result of product should be returned 
         if(n<0){
-            return 1/helper(x, n);
+            return 1/helper(x, abs(n));
         }
 
         return helper(x, n);
