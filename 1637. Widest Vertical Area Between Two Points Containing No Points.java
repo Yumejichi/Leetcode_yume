@@ -33,7 +33,7 @@ class Solution {
         sort(points, 0, len-1);
 
         //calculate the widest vertical area 
-        // After sort the array, it should be the minimum of the difference of each array's [0]'s elemets
+        // After sort the array, it should be the maximum of the difference of each array's [0]'s elemets
         int max = points[1][0] - points[0][0];
         for(int i =1; i<len-1; i++){
             if(points[i+1][0]-points[i][0] > max){
