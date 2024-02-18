@@ -24,6 +24,7 @@
 // 0 <= xi, yi <= 109
 
 
+//solution:
 class Solution {
     public int maxWidthOfVerticalArea(int[][] points) {
         //sort the array with first element for each of the first element for each two-dimension array:
